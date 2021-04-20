@@ -46,7 +46,6 @@ public class CreateLegal extends BaseClass
 		
 		String text = driver.findElement(By.xpath("//div[@class='toastContent slds-notify__content']")).getText();
         System.out.println(text);
-//        assertTrue(text.equals("Legal Entity 'Priya' was created."));
 	}
     
     @DataProvider(name = "LegalFetchData")
